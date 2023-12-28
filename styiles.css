@@ -27,19 +27,23 @@ body {
 
 .page_header {
   display: flex;
-  background-color: #000000;
+  background-image:url("https://s3-alpha-sig.figma.com/img/e660/a5d6/4f03cb261de0cb6638e3199b86ee87ed?Expires=1704672000&Signature=U806SRdhDDBooik4k0CLoV04bfwKRp8c1zH2YqRBES--2pUVphYfCQvrZJyoMTh~IOtA6rqg2fvA6pdiXLAVUNbvrs5Lml3KpRvWvbCs8L7~AEElIa2gN-no78ymXIDYpovyhoFf5efkNhzH7EDT0RQXOQanVPUSfeCDNs9sf~tCYtsyiP5eWPv4Tcs3icG75aamUsNA77rEmsubR4U6yWq0pTCcAAFTXA5cq8HEcxRaYDZn-UZ97w2KhIGSPLRmlcUiDrOFSxr8ydxJKbrI4iizHraI5w5ReFsynGc3Xbj4sYr8WObYSDoMm31GYTlQV7wdlnx9CsQMacxwd2QQZg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
 }
 
 .container_header {
   width: 1440px;
   min-height: 1024px;
-  background-image: url("imges/desktop.png");
   background-repeat: no-repeat;
 }
 
 .container_navigation {
-  display: flex;
-  flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
+ color: white;
+ font-size: 80px;
+ font-family: Libre Barcode 128 Text;
+ font-weight: 400;
+ word-wrap: break-word
 }
 
 .logo_link {
